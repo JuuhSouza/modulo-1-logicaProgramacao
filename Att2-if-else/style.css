@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-image: url("img/Ruido.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15em 20em;
+    margin: auto;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+}
+
+.container__texto{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    color:rgb(0, 252, 0);
+    padding: 10px ;
+    box-shadow: 2px 0px 20px rgb(94, 255, 0);
+        border-radius: 0.5em;
+}
+
+.botao{
+    text-align: center;
+    margin-top: 4em;
+}
+
+.botao a{
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: rgba(30, 255, 0, 0.575);
+    color: rgb(255, 255, 255);
+    transition: 1s ease;
+    border-radius: 0.5em;
+}
+
+.botao a:hover{
+    background-color: rgba(1, 95, 1, 0.521);
+    color: rgb(255, 255, 255);
+}
+
+/* página segundaria */

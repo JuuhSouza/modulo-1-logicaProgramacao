@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+}
+
+img{
+    width: 60%;
+    margin: 4em;
+    border-radius: 2%;
+    box-shadow: 22px 20px 10px rgb(87, 5, 5);
+}
